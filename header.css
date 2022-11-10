@@ -1,0 +1,42 @@
+header {
+    height: 120px;
+    display: flex;
+}
+header h1 {
+    float: left;
+    margin-top: 32px;
+    flex-grow: 1;
+}
+header h1 .color {
+    color: black;
+}
+header nav {
+    float: right;
+}
+header nav ul li {
+    float: left;
+    margin-top: 50px;
+}
+header nav ul li a {
+    color: #444;
+    font-weight: bold;
+    display: block;
+    margin-right: 2rem;
+}
+.right-header {
+    height: 120px;
+}
+
+.right-header nav {
+    justify-content: right;
+}
+.right-header nav ul li {
+    float: right;
+    margin-top: 50px;
+}
+.right-header nav ul li i {
+    color: whitesmoke;
+    font-weight: bold;
+    display: block;
+    float: right;
+}
